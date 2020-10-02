@@ -10,6 +10,8 @@ import { TrackingPageComponent } from './pages/tracking-page/tracking-page.compo
 
 
 const routes: Routes = [
+  {path: '', redirectTo: 'user-login', pathMatch: 'full'},
+  {path: 'user-login', component: LoginComponent},
   {path: 'register', component: RegisterComponent},
   {
     path: 'nul-admin',

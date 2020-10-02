@@ -7,8 +7,8 @@ declare var $:any;
   providedIn: 'root'
 })
 export class ApiService {
-//	url = 'https://gabe205.tk/nulbulk';
-url = 'http://localhost/nulbulk/nulbulk_backend';
+	url = 'https://gabe205.tk/nulbulk';
+//url = 'http://localhost/nulbulk/nulbulk_backend';
 
 constructor(private http: HttpClient) {}
 

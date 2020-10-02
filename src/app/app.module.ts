@@ -17,6 +17,7 @@ import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.compon
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { FooterComponent } from './shared/footer/footer.component';
+import { AdminLayoutModule } from './layouts/admin-layout/admin-layout.module';
 
 
 @NgModule({
@@ -24,11 +25,11 @@ import { FooterComponent } from './shared/footer/footer.component';
     AppComponent,
     LoginComponent,
     RegisterComponent,
-    
+    TrackingPageComponent,
     AdminLayoutComponent,
-    
+    TrackingListComponent,
     SidebarComponent,
-    
+    NewTrackingComponent,
     NavbarComponent,
     
     FooterComponent
@@ -39,8 +40,8 @@ import { FooterComponent } from './shared/footer/footer.component';
     AppRoutingModule,
     FormsModule,
     RouterModule,
-    HttpClientModule
-    
+    HttpClientModule,
+  /*   AdminLayoutModule */
   ],
   providers: [ApiService],
   bootstrap: [AppComponent]

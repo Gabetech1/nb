@@ -22,10 +22,10 @@ import { TrackingListComponent } from 'src/app/pages/tracking-list/tracking-list
   ],
   declarations: [
     HomeComponent,
-    NewTrackingComponent,
+   
     TrackingEditComponent,
-    TrackingPageComponent,
-    TrackingListComponent,
+   /*  TrackingPageComponent, */
+  
   ]
 })
 

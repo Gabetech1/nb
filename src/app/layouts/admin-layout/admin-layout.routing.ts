@@ -4,6 +4,7 @@ import { TrackingListComponent } from 'src/app/pages/tracking-list/tracking-list
 
 
 export const AdminLayoutRoutes: Routes = [
+    { path: '',      component: TrackingListComponent },
     { path: 'new_tracking',      component: NewTrackingComponent },
-    { path: 'tracking_list',      component: TrackingListComponent },
+    
 ];
